@@ -1,0 +1,26 @@
+{
+	"name": "orm_review",
+	"version": "1.0.0",
+	"description": "Building an ORM backend",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/a-breezy/ORM_review.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/a-breezy/ORM_review/issues"
+	},
+	"homepage": "https://github.com/a-breezy/ORM_review#readme",
+	"dependencies": {
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"mysql2": "^2.3.3",
+		"sequelize": "^6.26.0"
+	}
+}
